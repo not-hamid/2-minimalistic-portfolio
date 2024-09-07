@@ -1,0 +1,726 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+nav:hover{
+    cursor: pointer;
+}
+.bg1{
+    width: 100%;
+    height: 115vh;
+    background-color: rgb(94, 255, 0);
+    display: flex;
+    justify-content: center;
+}
+.bg1kid:nth-child(1){
+    height: 100vh;
+    width: 30%;
+    text-align: center;
+    position: relative;
+    top: 4rem;
+}
+.bg11{
+    font-size: 5.8rem;
+    font-weight: 900;
+    line-height: 6.5rem;
+    letter-spacing: -2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bg12{
+    font-size: 1rem;
+    word-spacing: 5px;
+    margin-top: 1.5rem;
+    width: 90%;
+    padding-left: 1.5rem;
+    box-sizing: border-box;
+    font-weight: bolder;
+    text-align: justify;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bone{
+    background-color: white;
+    border: none;
+    border-radius: 23px;
+    width: 60%;
+    height: 8.5vh;
+    position: relative;
+    top: 2.9rem;
+    font-weight: bolder;
+}
+.bone:hover{
+    cursor: pointer;
+    background-color: rgb(245, 244, 244);
+}
+.bg2{
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bg2kid:nth-child(1){
+    height: 20vh;
+    width: 55%;
+    position: relative;
+    right: 13.8rem;
+    top: 3rem;
+}
+.bg21{
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bg2kid:nth-child(2){
+    width: 90%;
+    height: 56vh;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg2kid2:nth-child(1){
+    height: 29vh;
+}
+.kid2h{
+    color: rgb(87, 218, 0);
+}
+.kid2p{
+    text-align: justify;
+    margin-top: 8px;
+    font-size: 0.88rem;
+}
+.bg2kid2:nth-child(2){
+    height: 29vh;
+}
+.bg2kid2:nth-child(3){
+    height: 29vh;
+}
+.bg2kid2:nth-child(4){
+    height: 29vh;
+}
+.bg2kid2:nth-child(5){
+    height: 29vh;
+}
+.bg2kid2:nth-child(6){
+    height: 29vh;
+}
+.bg2kid:nth-child(3){
+    height: 15vh;
+    width: 33.5%;
+    position: relative;
+    left: 25.9rem;
+    bottom: 3rem;
+}
+.bg2p{
+    font-size: 1.1rem;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg3{
+    height: 160vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.subbg3{
+    flex-basis: 90%;
+    height: 125vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+.bg3kid:nth-child(1){
+    height: 60vh;
+    background-image: url(../media/flower.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg3kid:nth-child(2){
+    height: 60vh;
+    background-image: url(../media/bag.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg3kid:nth-child(3){
+    height: 60vh;
+    background-image: url(../media/keyboard.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg3kid:nth-child(4){
+    height: 60vh;
+    background-image: url(../media/clipboard.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg3kid:nth-child(5){
+    height: 60vh;
+    background-image: url(../media/laptop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg3kid:nth-child(6){
+    height: 60vh;
+    background-image: url(../media/tile.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btwo{
+    background-color: rgb(94, 255, 0);
+    border: none;
+    border-radius: 23px;
+    flex-basis: 20%;
+    height: 8.5vh;
+    font-weight: bolder;
+}
+.btwo:hover{
+    cursor: pointer;
+    background-color: rgb(87, 237, 1);
+}
+.bg4{
+    height: 140vh;
+    width: 100%;
+    background-color: rgba(238, 238, 238, 0.854);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bg4kid:nth-child(1){
+    flex-basis: 52.5%;
+    height: 40vh;
+    position: relative;
+    top: 5rem;
+}
+.bg4p{
+    font-size: 6.5rem;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bg4kid:nth-child(2){
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg4kid1:nth-child(1){
+    height: 70%;
+    width: 35%;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    top: 5.5rem;
+    left: 4rem; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.r1{
+    height: 22vh;
+    width: 28%;
+    border-radius: 50%;
+    position: absolute;
+    right: 24rem;
+    bottom: 8rem;
+    background-image: url(../media/man.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg41{
+    height: 60%;
+    flex-basis: 77%;
+    position: relative;
+    left: 1rem;
+}
+.bg4kid1:nth-child(2){
+    height: 70%;
+    width: 35%;
+    background-color: white;
+    border-radius: 23px;
+    position: relative;
+    top: 5.5rem;
+    left: 1.6rem; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.r2{
+    height: 22vh;
+    width: 28%;
+    border-radius: 50%;
+    position: absolute;
+    right: 24rem;
+    bottom: 8rem;
+    background-image: url(../media/girl.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p41{
+    font-size: 1.2rem;
+    font-weight: 600;
+    top: 0.6rem;
+    text-align: right;
+    padding: 10px 10px 0 0;
+} 
+.bg5{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding-top: 5rem;
+    box-sizing: border-box;
+}
+.bg5kid:nth-child(1){
+    height: 40vh;
+}
+.bg5kid:nth-child(2){
+    height: 42vh;
+    display: flex;
+    justify-content: space-between;
+}
+.bg5kid:nth-child(3){
+    height: 40vh;
+}
+.bg5kid:nth-child(4){
+    height: 40vh;
+}
+.bg5kid:nth-child(5){
+    height: 42vh;
+    display: flex;
+    justify-content: space-between;
+}
+.bg5kid:nth-child(6){
+    height: 40vh;
+}
+.bg5kid:nth-child(7){
+    height: 40vh;
+}
+.bg5kid:nth-child(8){
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+.bg5kid:nth-child(9){
+    height: 40vh;
+}
+.bg5p{
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg5child{
+    width: 81%;
+    height: 100%;
+}
+.gr1{
+    height: 10vh;
+    width: 11.5%;
+    background-color: rgb(94, 255, 0);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 3.5rem;
+    font-size: 2rem;
+}
+.bgp2{
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bgp3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.87rem;
+}
+.bg6{
+    height: 130vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3rem;
+    box-sizing: border-box;
+}
+.bg6kid{
+    height: 100vh;
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.6rem;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+}
+.bg6kida:nth-child(1){
+    height: 50vh;
+    display: flex;
+}
+.bg6child1{
+    height: 100%;
+    width: 50%;
+    background-image: url(../media/m1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg6child2{
+    height: 100%;
+    width: 50%;
+    background-color: rgba(207, 207, 207, 0.715);
+    padding: 1rem 1rem 0 1rem;
+    box-sizing: border-box;
+} 
+.bg6child2:hover{
+    cursor: pointer;
+    background-color: rgba(184, 184, 184, 0.726);
+}
+.bg6kida:nth-child(2){
+    height: 50vh;
+    display: flex;
+}
+.bg6child3{
+    height: 100%;
+    width: 50%;
+    background-image: url(../media/m2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg6child4{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(82, 223, 0);
+    padding: 1rem 1rem 0 1rem;
+    box-sizing: border-box;
+}
+.bg6child4:hover{
+    cursor: pointer;
+    background-color: rgb(76, 203, 2);
+}
+.bg6kida:nth-child(3){
+    height: 50vh;
+    display: flex;
+}
+.bg6child5{
+    height: 100%;
+    width: 50%;
+    background-image: url(../media/m3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg6child6{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(82, 223, 0);
+    padding: 1rem 1rem 0 1rem;
+    box-sizing: border-box;
+}
+.bg6child6:hover{
+    cursor: pointer;
+    background-color: rgb(76, 203, 2);
+}
+.bg6kida:nth-child(4){
+    height: 50vh;
+    display: flex;
+}
+.bg6child7{
+    height: 100%;
+    width: 50%;
+    background-image: url(../media/m4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg6child8{
+    height: 100%;
+    width: 50%;
+    background-color: rgba(207, 207, 207, 0.715);
+    padding: 1rem 1rem 0 1rem;
+    box-sizing: border-box;
+}
+.bg6child8:hover{
+    cursor: pointer;
+    background-color: rgba(184, 184, 184, 0.726);
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg6p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.92rem; 
+    margin-top: 1rem;
+}
+.arrow{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+.bg7{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(94, 255, 0); 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+.bg7h{
+    font-size: 5rem;
+    line-height: 12rem;
+}
+.bg7p{
+    margin-top: -1.5rem;
+}
+.bg7pp{
+    font-weight: 800;
+    margin-top: 3.4rem;
+    font-size: 1.1rem;
+}
+.bg7ppp{
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+.social{
+    letter-spacing: 0.8rem;
+    margin-top: 1rem;
+    font-size: 4rem;
+    color: white;
+}
+.a:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: 0.5s all ease;
+}
+.aa:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: 0.5s all ease;
+}
+.aaa:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: 0.5s all ease;
+}
+
+.bg8{
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(64, 64, 64);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg8p{
+    font-size: 0.71rem;
+    word-spacing: 0.5px;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width:1024px) {
+    .bg1kid:nth-child(1){
+        top: 2rem;
+    }
+    .bg11{
+        font-size: 4.8rem;
+        line-height: 4.8rem;
+    }
+    .bg12{
+        font-size: 0.75rem;
+        margin-top: 1rem;
+    }
+    .bone{
+        width: 50%;
+        top: 1.8rem;
+    }
+
+    .bg21{
+        font-size: 1.5rem;
+    }
+    .bg2kid:nth-child(2){
+        height: auto;
+    }
+    .bg2kid:nth-child(3){
+        width: 32.5%;
+        left: 20.9rem;
+        top: 2rem;
+    }
+    .bg2p{
+        font-size: 0.85rem;
+    }
+
+    .bg3{
+        height: 170vh;
+    }
+    .subbg3{
+        padding-top: 3rem;
+        box-sizing: border-box;
+    }
+    .btwo{
+       margin-top: 4rem;
+    }
+
+   
+    .bg4kid:nth-child(1){
+        flex-basis: 52.5%;
+        top: 2rem;
+    }
+    .bg4p{
+        font-size: 5rem;
+    }
+    .r1{
+        height: 24vh;
+        right: 19rem;
+        bottom: 7rem;
+    }
+    .bg41{
+        font-size: 0.8rem;
+    }
+    .r2{
+        height: 24vh;
+        right: 19rem;
+        bottom: 7rem;
+    }
+    .p41{
+        font-size: 0.9rem;
+        padding: 6px 10px 0 0;
+    } 
+
+    .bg5{
+        height: 230vh;
+    }
+    .bg5child{
+        width: 81%;
+        height: 100%;
+    }
+    .gr1{
+        line-height: 3rem;
+        font-size: 1.8rem;
+    }
+
+    .bg6{
+        height: 110vh;
+        padding-bottom: 8rem;
+    }
+    .bg6p{
+        font-size: 0.69rem; 
+    }
+    .arrow{
+        font-size: 1.8rem;
+        margin-top: 0.5rem;
+    }
+
+    .bg7{
+        height: 105vh;
+    }
+   
+}
+
+@media (max-width:768px) {
+    .bg11{
+        font-size: 4rem;
+    }
+    .bg2{
+        height: 170vh;
+    }
+    .bg2kid:nth-child(1){
+        right: 10rem;
+        top: 2.2rem;
+    }
+    .bg21{
+        font-size: 1.2rem;
+    }
+    .bg2kid:nth-child(2){
+        height: 110vh;
+    }
+    .bg2kid:nth-child(3){
+        top: 0.1rem;
+        left: 16rem;
+    }
+    .bg2p{
+        font-size: 0.85rem;
+    }
+ 
+    .bg4kid:nth-child(1){
+        flex-basis: 54.5%;
+        top: 4.5rem;
+    }
+    .bg4p{
+        font-size: 4rem;
+    }
+    .r1{
+        height: 24vh;
+        width: 34%;
+        right: 14rem;
+        bottom: 6rem;
+    }
+    .bg41{
+        font-size: 0.8rem;
+    }
+    .bg4kid1:nth-child(2){
+        left: 0.01rem; 
+    }
+    .r2{
+        height: 24vh;
+        width: 34%;
+        right: 14rem;
+        bottom: 6rem;
+    }
+    .p41{
+        font-size: 0.9rem;
+        padding: 6px 10px 0 0;
+    } 
+    .bg5{ 
+        height: 250vh;
+        padding-top: 4rem;
+    }
+    .bg5child{
+        width: 75%;
+        height: 100%;
+    }
+    .gr1{
+        line-height: 3rem;
+        font-size: 1.8rem;
+        width: 15%;
+    }
+
+    .bg6{
+        height: 110vh;
+        padding-bottom: 7.5rem;
+    }
+    h3{
+        font-size: 0.85rem;
+    }
+    .bg6p{
+        font-size: 0.65rem; 
+        margin-top: 0.5rem;
+    }
+    .arrow{
+        font-size: 1.5rem;
+        margin-top: 0.15rem;
+    }
+
+    .bg7{
+        height: 105vh;
+    }
+   
+}
